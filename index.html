@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password-display">
+            <input type="text" id="password" readonly>
+            <button id="copy-btn">Copy</button>
+        </div>
+        <div class="options">
+            <label for="length">Length:</label>
+            <input type="number" id="length" value="12" min="4" max="20">
+            <label>
+                <input type="checkbox" id="include-uppercase" checked> Include Uppercase
+            </label>
+            <label>
+                <input type="checkbox" id="include-numbers" checked> Include Numbers
+            </label>
+            <label>
+                <input type="checkbox" id="include-symbols" checked> Include Symbols
+            </label>
+        </div>
+        <button id="generate-btn">Generate Password</button>
+    </div>
+
+    <footer>
+        <div class="watermark">
+            Developed by Rudra Vishwakarma<br> follow me on;
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/rudra-vishwakarma-80b7a0269" target="_blank">
+                <img src="linkedin-logo.png" alt="LinkedIn" />
+            </a>
+            <a href="https://twitter.com/Rudracavin" target="_blank">
+                <img src="twitter-logo.png" alt="Twitter" />
+            </a>
+            <a href="https://github.com/Rudraa01" target="_blank">
+                <img src="github-logo.png" alt="GitHub" />
+            </a>
+            <a href="https://www.instagram.com/_rudra.aaaaa" target="_blank">
+                <img src="instagram-logo.png" alt="Instagram" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

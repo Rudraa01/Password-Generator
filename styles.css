@@ -1,0 +1,100 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* Background pattern */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(68, 187, 205, 0.8); /* Glow effect for the title */
+}
+
+.password-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#password {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(56, 182, 201, 0.8); /* Glow effect for the password input */
+    transition: box-shadow 0.3s;
+}
+
+#password:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgb(0, 199, 234); /* Stronger glow on focus */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ab9bb;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(79, 202, 192, 0.974); /* Glow effect for buttons */
+}
+
+button:hover {
+    background-color: #4ab9bb;
+    box-shadow: 0 0 20px rgb(81, 203, 212); /* Stronger glow on hover */
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.watermark {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
